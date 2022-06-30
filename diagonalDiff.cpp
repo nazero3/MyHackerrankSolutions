@@ -28,9 +28,7 @@ int main()
                              {9, 8, 9}};
 
     //int c = 0;
-    cout << diagonalDifference({{1, 2, 3},
-                        {4, 5, 6},
-                        {9, 8, 9}});
+    cout << diagonalDifference(x);
     //cout << c;
     return 0;
 }
