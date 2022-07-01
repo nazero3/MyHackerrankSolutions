@@ -3,7 +3,8 @@
 
 using namespace std;
 
-vector<int> countingSort(vector<int> a){
+vector<int> countingSort(vector<int> a)
+{
     vector<int> answer;
     for (int i = 0; i < 100; i++)
     {
@@ -13,12 +14,13 @@ vector<int> countingSort(vector<int> a){
     {
         answer.at(a.at(i)) += 1;
     }
-    
+
     return answer;
 }
-int main(){
+int main()
+{
 
-    vector<int> x ={1,1,1,3,4};
+    vector<int> x = {1, 1, 1, 3, 4};
     countingSort(x);
     return 0;
 }
